@@ -1,0 +1,113 @@
+body{
+
+    background-color: yellow;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 12px;
+    
+    }
+    
+    /* style for h1 */
+    
+    h1{
+    
+    color:blue;
+    
+    font-size: 2em;
+    
+    }
+    
+    /* style rule for hyperlink */
+    
+    a{
+    
+    background-color: black;
+    
+    color:white;
+    
+    text-decoration: none;
+    
+    }
+    
+    /* style for header */
+    
+    header{
+    
+    height: 20%;
+    
+    border: 2px solid green;
+    
+    text-align: center;
+    
+    }
+    
+    /* style for footer */
+    
+    footer{
+    
+    height: 10%;
+    
+    position: absolute;
+    
+    bottom: 0;
+    
+    text-align: center;
+    
+    border: 2px solid green;
+    
+    width: 100%;
+    
+    }
+    
+    /* style for nav */
+    
+    nav{
+    
+    width: 30%;
+    
+    height: 480px;
+    
+    float: left;
+    
+    border: 2px solid pink;
+    
+    }
+    
+    /* style for ul */
+    
+    ul li{
+    
+    list-style-type: none;
+    
+    padding: 20px;
+    
+    }
+    
+    /* style for section */
+    
+    section{
+    
+    float: left;
+    
+    border: 2px solid orange;
+    
+    width: 68%;
+    
+    height: 480px;
+    
+    }
+    
+    /* style for image */
+    
+    img{
+    
+    height: 300px;
+    
+    width:300px;
+    
+    border: 5px dashed red;
+    
+    padding: 10px;
+    
+    }
