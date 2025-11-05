@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+:root {
+ /* change the values below to your colors from your palette */
+ --primary-color: #6fa8dc;
+ --secondary-color: #3b3f40;
+ --accent1-color: #104f55;
+ --accent2-color: #291C4A;
+ --accent3-color: #EB9F98;
+ /* change the values below to your chosen font(s) */
+ --heading-font: Lato, Helvetica, sans-serif;
+ --paragraph-font: "Open Sans", sans-serif;;
+ /* these colors below should be chosen from among your palette colors above */
+ --headline-color-on-white: black; /* headlines on a white background */ 
+ --headline-color-on-color: white; /* headlines on a colored background */ 
+ --paragraph-color-on-white: #01200f; /* paragraph text on a white background */ 
+ --paragraph-color-on-color: #01200f; /* paragraph text on a colored background */ 
+ --paragraph-color: white;
+ --paragraph-background-color: #104f55;
+ --nav-link-color: #6fa8dc;
+ --nav-background-color: #104f55;
+ --nav-hover-link-color: #EB9F98;
+ --nav-hover-background-color: #1D909A;
+}
+html {
+ background-color: var(--secondary-color);
+}
+header {
+ margin: 0;
+ padding: 0;
+ text-align: left;
+ color: var(--paragraph-color-on-color);
+ background-color: var(--accent1-color);
+}
+header img{
+ max-height: 100%;
+}
+.link-margin{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.topnav {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background-color: var(--nav-background-color);
+    display:inline-block;
+    vertical-align:top;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 1.3rem;
+   }
+   .topnav a {
+    color: var(--nav-link-color);
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 80px; /* if you want it to take the full height of the bar */
+    line-height: 80px;
+    padding: 0 15px;
+   }
+   .topnav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+   }
+   .topnav a.active {
+    background-color: var(--nav-hover-background-color);
+    color: white;
+   }
+   .topnav .icon {
+    display: none;
+   }
